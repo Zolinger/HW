@@ -1,0 +1,39 @@
+* {
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head-cart {
+    height: 100px;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.cart-button {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 35px;
+    margin-left: 1650px;
+}
+.goods-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.image {
+    width: 149px;
+    height: 230px;
+    background-image: url(image/img.jpg);
+    border-radius: 5px;
+}
+.goods-item {
+    flex-direction: column;
+    width: 150px;
+    height: 300px;
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
